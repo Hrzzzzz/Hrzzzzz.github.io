@@ -1,0 +1,93 @@
+{
+  "_note": "中文文案备份。当前网站不会加载此文件，可在以后实现语言切换时使用。",
+  "meta": {
+    "title": "你的名字｜研究者",
+    "description": "你的名字的学术网站：研究方向、论文发表、学术履历与联系方式。"
+  },
+  "navigation": {
+    "about": "关于",
+    "experience": "学术履历",
+    "research": "研究",
+    "publications": "论文发表",
+    "contact": "联系"
+  },
+  "hero": {
+    "status": "欢迎研究合作",
+    "greeting": "你好，我是",
+    "name": "你的名字。",
+    "description": "我是一名从事你的学术领域研究的研究者。我的工作关注你的核心研究问题，并聚焦于你的方法、研究对象或应用领域。",
+    "primaryAction": "查看我的研究",
+    "secondaryAction": "查看学术简历",
+    "resume": "学术简历",
+    "location": "你的城市",
+    "focusLabel": "研究重点",
+    "focus": "你的主要研究方向",
+    "note": "提出更好的问题",
+    "scroll": "向下探索"
+  },
+  "about": {
+    "kicker": "01 / 关于我",
+    "title": "研究者、教育者与合作者",
+    "lead": "我研究你的广义研究主题及其对相关领域或社会的影响。",
+    "paragraphOne": "介绍你目前的职位、所属机构和学术背景，并简要说明推动你研究的问题以及所采用的方法。",
+    "paragraphTwo": "介绍你的教学、田野工作、专业服务或合作经历，也可以补充一句学术之外的兴趣。",
+    "affiliationLabel": "所属机构",
+    "affiliation": "大学 / 研究机构",
+    "positionLabel": "职位",
+    "position": "你的学术职位",
+    "focusLabel": "研究兴趣",
+    "focus": "主题 A · 主题 B · 主题 C",
+    "emailLabel": "邮箱"
+  },
+  "experience": {
+    "kicker": "02 / 学术履历",
+    "title": "研究与教育经历",
+    "present": "至今",
+    "workType": "现任职位",
+    "position": "博士研究生 / 研究员",
+    "organization": "院系 · 大学 · 城市",
+    "workDescription": "概述你的研究主题、导师或实验室，以及当前工作的主要贡献。",
+    "educationType": "教育",
+    "degree": "你的专业学位",
+    "university": "院系 · 大学 · 城市",
+    "educationDescription": "填写论文题目、导师、研究方向和相关学术荣誉。",
+    "serviceType": "奖项与学术服务",
+    "service": "奖项、奖学金或学术服务",
+    "organizationService": "授予机构 · 城市",
+    "serviceDescription": "列出有代表性的奖学金、基金、教学经历、会议组织或学术服务。"
+  },
+  "research": {
+    "kicker": "03 / 研究",
+    "title": "我关注的问题",
+    "scholar": "Google Scholar",
+    "primary": "主要研究领域",
+    "ongoing": "进行中的研究",
+    "collaborative": "合作研究",
+    "themeOne": "研究主题一",
+    "themeTwo": "研究主题二",
+    "themeThree": "研究主题三",
+    "relatedPapers": "相关论文",
+    "learnMore": "了解更多",
+    "workingPaper": "工作论文",
+    "output": "研究成果"
+  },
+  "publications": {
+    "kicker": "04 / 论文发表",
+    "title": "代表性成果",
+    "intro": "列出同行评议论文、工作论文、会议论文、书籍章节或其他学术成果。",
+    "journalArticle": "期刊论文",
+    "workingPaper": "工作论文",
+    "conferencePaper": "会议论文"
+  },
+  "contact": {
+    "kicker": "05 / 联系",
+    "title": "对我的研究感兴趣？",
+    "subtitle": "欢迎联系。",
+    "description": "欢迎就研究合作、受邀报告、教学及其他学术机会与我交流。"
+  },
+  "footer": {
+    "name": "你的名字",
+    "message": "你的领域研究者",
+    "backToTop": "回到顶部"
+  }
+}
