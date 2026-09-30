@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ruizhao Huang's academic website — research interests, awards, teaching, and contact information."
+    />
+    <meta name="theme-color" content="#f7f7f2" />
+    <title>Ruizhao Huang</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+      <nav class="nav container" aria-label="Main navigation">
+        <a class="logo" href="#about" aria-label="Back to home">Ruizhao Huang</a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="nav-menu"
+          aria-label="Open navigation menu"
+        >
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-menu" id="nav-menu">
+          <a href="#about">About</a>
+          <a href="#news">News</a>
+          <a href="#research">Research</a>
+          <a href="#awards">Awards</a>
+          <a href="#teaching">Teaching</a>
+          <a href="#contact">Contact</a>
+          <button class="theme-toggle" type="button" aria-label="Switch to dark mode">
+            <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.66 6.34l1.41-1.41"></path>
+            </svg>
+            <svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z"></path>
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero section" id="about">
+        <div class="container hero-content reveal">
+          <div class="hero-copy">
+            <p class="section-kicker">01 / About</p>
+            <h1>Ruizhao Huang</h1>
+            <p class="about-intro">
+              Welcome to my homepage! I am a PhD candidate in the Department of
+              Information Systems, Business Statistics and Operations Management
+              (ISOM) at the Hong Kong University of Science and Technology (HKUST)
+              Business School, supervised by
+              <a href="https://yyli.finstar.hk/" target="_blank" rel="noreferrer">Prof. Yingying Li</a>
+              and
+              <a href="https://xhzheng.people.ust.hk/" target="_blank" rel="noreferrer">Prof. Xinghua Zheng</a>.
+              You can download my CV
+              <a href="#">here</a>.
+            </p>
+            <p class="research-interests">
+              <strong>Research Interests:</strong> Return Predictability, Large
+              Portfolio Optimization, Financial Machine Learning, AI in Finance
+            </p>
+          </div>
+          <div class="profile-photo-slot" aria-hidden="true">
+            <!-- TODO: Add your profile photo here -->
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-tinted" id="news">
+        <div class="container">
+          <p class="section-kicker">02 / News</p>
+          <ul class="news-list">
+            <li>
+              <time datetime="2026-09">September 2026</time>
+              Our method <strong>MAXSER-PR</strong> ranked #1 (Sharpe ratio 4.11) on the
+              <a href="https://jkpfactors.com/ctf/leaderboard" target="_blank" rel="noreferrer">JKP Global Factor Data CTF Leaderboard</a>.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="research">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div>
+              <p class="section-kicker">03 / Research</p>
+              <h2>Working Papers</h2>
+            </div>
+          </div>
+
+          <div class="research-list">
+            <!-- TODO: Replace these entries with your working papers -->
+            <article class="research-item reveal">
+              <h3>
+                Incorporating Return Prediction in High-Dimensional Mean-Variance
+                Portfolio Optimization
+              </h3>
+              <p class="research-methods">
+                Ruizhao Huang, Yingying Li, Xinghua Zheng
+              </p>
+              <p class="paper-status">
+                Major Revision at <strong><em>Management Science</em></strong>
+              </p>
+              <div class="research-links">
+                <a
+                  href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5801843"
+                  target="_blank"
+                  rel="noreferrer"
+                >SSRN ↗</a>
+              </div>
+              <p class="paper-abstract">
+                <strong>Abstract:</strong> We develop a framework that incorporates
+                return prediction to achieve unconditional mean-variance efficiency
+                in high dimensions. Our method, termed MAXSER-PR, builds upon the
+                seminal “MAXSER” estimator of Ao, Li, and Zheng (2019) by integrating
+                conditional information into the optimization, thereby providing a
+                tractable bridge between conditional return prediction and
+                unconditional mean-variance efficiency. This integration is
+                complicated by the fact that conditional efficiency does not imply
+                unconditional efficiency, by the lack of historical data under
+                conditional distributions, and by high dimensionality. We address
+                these challenges by deriving a regression representation of a
+                conditional optimization whose solution achieves unconditional
+                mean-variance efficiency; constructing synthetic returns; and
+                utilizing random matrix theory and elastic net regression to obtain
+                a feasible and stable solution. Under an elliptical model for the
+                unpredictable return component that allows for heteroskedasticity,
+                heavy-tailedness and serial dependence, and an elastic net regularity
+                condition, our method asymptotically attains unconditional
+                mean-variance efficiency. We demonstrate that our method delivers
+                superior performance through comprehensive empirical studies across
+                multiple prediction models and high-dimensional settings.
+              </p>
+              <p class="paper-presentations"><strong>Presentations:</strong></p>
+              <ul class="presentation-list">
+                <li>
+                  <a href="https://www.x-agi.cc/" target="_blank" rel="noreferrer">
+                    The 2026 AI Conference for the neXt Generation (X-AGI)
+                  </a>
+                  (Beijing, 2026)
+                </li>
+                <li>
+                  <a href="http://ias.ust.hk/events/202608fbe/home.php" target="_blank" rel="noreferrer">
+                    The 3rd HKUST IAS-SBM Joint Workshop on Financial Econometrics
+                    in the Big Data Era
+                  </a>
+                  (Hong Kong, 2026)
+                </li>
+                <li>
+                  <a href="https://ai4f2026.com/#/home" target="_blank" rel="noreferrer">
+                    The 4th Annual ABFER-JFDS Conference on AI for Finance
+                  </a>
+                  (Hefei, 2026)
+                </li>
+                <li>
+                  <a href="https://cityuhkfintech.com/2025-conference/" target="_blank" rel="noreferrer">
+                    The 4th Hong Kong Conference for Fintech, AI, and Big Data in
+                    Business
+                  </a>
+                  (Hong Kong, 2025)
+                </li>
+                <li>
+                  <a href="https://sofie-conference2025.essec.edu/" target="_blank" rel="noreferrer">
+                    The 17th Annual Society for Financial Econometrics (SoFiE)
+                    Conference
+                  </a>
+                  (Paris, 2025)
+                </li>
+                <li>
+                  <a href="http://ias.ust.hk/events/202508fbe/home.php" target="_blank" rel="noreferrer">
+                    The 2nd HKUST IAS-SBM Joint Workshop on Financial Econometrics
+                    in the Big Data Era
+                  </a>
+                  (Hong Kong, 2025)
+                </li>
+                <li>
+                  <a href="https://2025amgbesg.hkust.edu.hk/" target="_blank" rel="noreferrer">
+                    The 2025 Annual Meeting of the Greater Bay Econometrics Study
+                    Group
+                  </a>
+                  (Hong Kong, 2025)
+                </li>
+                <li>
+                  <a href="https://bm.hkust.edu.hk/events/2025/05/hkust-business-school-phd-student-conference" target="_blank" rel="noreferrer">
+                    The HKUST Business School PhD Student Conference
+                  </a>
+                  (Hong Kong, 2025)
+                </li>
+                <li>
+                  <a href="https://fba.um.edu.mo/fba-seminar-series-145/" target="_blank" rel="noreferrer">
+                    University of Macau Faculty of Business Administration Seminar
+                    Series
+                  </a>
+                  (Macau, 2024)
+                </li>
+              </ul>
+            </article>
+          </div>
+
+          <div class="research-group">
+            <h2 class="research-subheading reveal">Work-in-Progress</h2>
+            <div class="research-list">
+              <!-- TODO: Replace these entries with your ongoing projects -->
+              <article class="research-item reveal">
+                <h3>Option-Implied Equity Premium</h3>
+                <p class="research-methods">
+                  with Torben G. Andersen, Yingying Li, Viktor Todorov and
+                  Xinghua Zheng
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-tinted" id="awards">
+        <div class="container">
+          <p class="section-kicker">04 / Awards</p>
+          <ul class="awards-list">
+            <li>
+              RedBird Academic Excellence Award
+              <span>HKUST 2026</span>
+            </li>
+            <li>
+              Research Postgraduate Award – Excellence Award
+              <span>HKUST 2025, 2026</span>
+            </li>
+            <li>
+              Research Postgraduate Top-Up Award
+              <span>HKUST 2024, 2025, 2026</span>
+            </li>
+            <li>
+              Postgraduate Scholarships
+              <span>HKUST 2022–2027</span>
+            </li>
+            <li>
+              Masters Student Honors Fellow
+              <span>University of Southern California 2021</span>
+            </li>
+            <li>
+              Gold/Bronze Award in “Challenge Cup” Extra-curricular Science
+              and Technology Works Contest
+              <span>Provincial/National 2016</span>
+            </li>
+            <li>
+              Second Prize in National College Student Smart Internet
+              Innovation Contest
+              <span>Regional 2016</span>
+            </li>
+            <li>
+              Second Prize in “Texas Instruments (TI) Cup” Electronic Design
+              Contest
+              <span>Provincial 2015</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="teaching">
+        <div class="container">
+          <p class="section-kicker">05 / Teaching</p>
+          <ul class="teaching-list">
+            <li>
+              ISOM2600 - Introduction to Business Analytics
+              <span>2022-23 SPRING</span>
+            </li>
+            <li>
+              ISOM4530 - Statistical Analysis of Financial Data in R
+              <span>2023-24 FALL, 2024-25 FALL, 2025-26 FALL</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section section-tinted contact-section" id="contact">
+        <div class="container contact-wrap reveal">
+          <p class="section-kicker">06 / Contact</p>
+          <p>
+            <a href="mailto:rhuangbb@connect.ust.hk">rhuangbb@connect.ust.hk</a>
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="current-year"></span> Ruizhao Huang</p>
+        <a href="#about">Back to top ↑</a>
+      </div>
+    </footer>
+  </body>
+</html>
