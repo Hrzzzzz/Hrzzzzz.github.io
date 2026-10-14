@@ -349,8 +349,12 @@ strong {
   margin-top: 5px;
 }
 
-.presentation-list a {
+.presentation-list a,
+.presentation-list span {
   color: var(--text);
+}
+
+.presentation-list a {
   text-decoration: underline;
   text-decoration-color: var(--accent);
   text-underline-offset: 3px;
