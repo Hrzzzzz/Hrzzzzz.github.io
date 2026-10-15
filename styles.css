@@ -467,6 +467,11 @@ strong {
   text-underline-offset: 3px;
 }
 
+.visitor-globe {
+  max-width: 400px;
+  margin-top: 18px;
+}
+
 .site-footer {
   border-top: 1px solid var(--line);
 }
