@@ -468,7 +468,7 @@ strong {
 }
 
 .visitor-map {
-  margin-top: 18px;
+  display: none;
 }
 
 .site-footer {
